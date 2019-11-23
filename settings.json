@@ -1,0 +1,104 @@
+{
+    "clients": [
+        {
+            "name": "Restocked",
+            "channel_id": [
+                "479406927676309506",
+                "542482412010209280",
+                "553275897801605131"
+            ],
+            "success_text": "Success by ",
+            "twit_call": "@R3STOCKED",
+            "config": {
+                "consumer_key": "76czHWyHrOTAdIhGPVv0343KA",
+                "consumer_secret": "fqJGxqJKgxBYAKikFvZLkbjIORlhBKjm4JSIcWMmEHt8YsPq4H",
+                "access_token_key": "1083592868810448896-PEcEntmJ6ppg8DHv5tsds2AiUm8p7B",
+                "access_token_secret": "0nQH9i6xhaErVXIWGaICdpVEV0Hty29Lh0bOm6mpbrZMx"
+            }
+        },
+        {
+            "name": "SoleNotify",
+            "channel_id": [
+                "534880332227280896"
+            ],
+            "success_text": "Success by ",
+            "twit_call": "@solenotify",
+            "config": {
+                "consumer_key": "ypO1xvXlWjavacb6e55RRkUwG",
+                "consumer_secret": "mk7a7O0ibIKKMvO6UblhuAiBrrp8BkmcKz44cdTrTIp2q8PkY9",
+                "access_token_key": "1062513135830089728-XCDKEgjk5Iv7HFUsQaTSFp1iDr6rIB",
+                "access_token_secret": "jZ4ANUiA2PX8vwe59TDhgobG5fZRQmwmv1LMQrYM7Qv7E"
+            }
+        },
+        {
+            "name": "RichNotify",
+            "channel_id": [
+                "608906271902400531"
+            ],
+            "success_text": "Success by ",
+            "twit_call": "@RichNotify",
+            "config": {
+                "consumer_key": "rk1n2dpLuh3FOrEkA1RtfgNd4",
+                "consumer_secret": "621OVeROT3TIX6xoQRbxaC2CoMFHH7NFXfHiRMpIEY4D8QI8aV",
+                "access_token_key": "1160992718442704896-ma2BHZ2rCRPDUkAcoLS5TU9sPfFtwo",
+                "access_token_secret": "JI90VkfS3sfvW0F2JOPxjxHI4cx4vNMOdikCCJunuVYRu"
+            }
+        },
+        {
+            "name": "Restocked2",
+            "channel_id": [
+                "542019797936898049"
+            ],
+            "success_text": "Success by ",
+            "twit_call": "@ProxyHeaven_",
+            "config": {
+                "consumer_key": "76czHWyHrOTAdIhGPVv0343KA",
+                "consumer_secret": "fqJGxqJKgxBYAKikFvZLkbjIORlhBKjm4JSIcWMmEHt8YsPq4H",
+                "access_token_key": "1083592868810448896-PEcEntmJ6ppg8DHv5tsds2AiUm8p7B",
+                "access_token_secret": "0nQH9i6xhaErVXIWGaICdpVEV0Hty29Lh0bOm6mpbrZMx"
+            }
+        },
+{
+            "name": "Bobbie",
+            "channel_id": [
+                "636624126630690872"
+            ],
+            "success_text": "Success by ",
+            "twit_call": "@bobbiesworld23",
+            "config": {
+                "consumer_key": "EAVld2tvpsJJy6jF4rDmdLpG0",
+                "consumer_secret": "tfKW2HxOpuAmlQLxQ4HXIFTFDY6QzzZFDSSNBRf4P5FpzKJl5s",
+                "access_token_key": "1186637284621389824-g3Wg7qkHqZzehhClnrtRyfqN2DPduv",
+                "access_token_secret": "iriz4S9H2QEjlK8UwkbEOzi8fRWAR6OPNAa32jJFuMwwr"
+            }
+},
+{
+	"name": "Osiris",
+	"channel_id": ["636351920402858004"],
+	"success_text": "Success by ",
+	"twit_call": "@OsirisNotify",
+	"config": {
+		"consumer_key": "WXWHuTa6jcW9wnKiz59ACvi2q",
+		"consumer_secret": "dPk85rQNivt5q6rQ8lpqSPKbmy69uUcMUtxPekuVKA8MohtIhN",
+		"access_token_key": "1187524652169646080-fE6nsyzoVsUHGHTZg7MwrH4FDVizob",
+		"access_token_secret": "uNtMT0oyAQTjApK1hdSNTkXc5CqWiZhdjY8nKBKj5U8fA"
+	}
+},
+{
+        "name": "SLExpress",
+        "channel_id": ["619153667655860245"],
+        "success_text": "Success by ",
+        "twit_call": "@SLexpress_",
+        "config": {
+                "consumer_key": "uoqXn7A4plRAIG4PdCA2sIUxF",
+                "consumer_secret": "jviC1yRO64KzFyXGbswos7D1aqRGHuUDoZ7MCXJBpeZKDNFNRX",
+                "access_token_key": "1178771481574154246-cblqV6NinLg5cZevffVZmBFM11eYwd",
+                "access_token_secret": "xtFb7b80zrFJZzsCQ1WigcPLiuhWFJHTRqPAzY2zKd1io"
+        }
+}
+
+    ],
+    "token": "NjAwMzY3MzU2MjQ1NDQyNTYx.XSytzQ.VKIbWEi86bEERCB52CglMxP1QRs",
+    "my_id": "244203795259719681",
+    "prefix": "!"
+}
