@@ -112,7 +112,8 @@
                 "consumer_secret": "ZhNaGVbOORZ2qqJKxtfaC9PaBo1SuEiI96slhf67x9TUAKaBr0",
                 "access_token_key": "1115961757443473408-eYm7nSKAqKxVDok7KwdpEhaeLpN79A",
                 "access_token_secret": "twwxWua5ZNWycJaAm7qkATkNnKKDKLisHySTqaVR4Q69u"
-            }
+            },
+            "anonymous": true
         }
     ],
     "token": "NjAwMzY3MzU2MjQ1NDQyNTYx.XSytzQ.VKIbWEi86bEERCB52CglMxP1QRs",

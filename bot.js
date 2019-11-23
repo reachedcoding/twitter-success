@@ -62,6 +62,10 @@ client.on('message', msg => {
                     status: clients[client_index].success_text + msg.author.username + '! ' + clients[client_index].twit_call,
                     media_ids: media.media_id_string // Pass the media id string
                 }
+                if (clients[client_index].anonymous) {
+                    status.status = clients[client_index].success_text;
+                }
+
                 clients[client_index].T.post('statuses/update', status, function (error, tweet, response) {
                     if (!error) {
                         console.log("Successfully posted a success!");
