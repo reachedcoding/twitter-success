@@ -18,7 +18,7 @@ fs.readFile('settings.json', (err, content) => {
     prefix = settings.prefix;
     clients_unformat = settings.clients;
     for (var i = 0; i < clients_unformat.length; i++) {
-        clients.push(new Client(clients_unformat[i].name, clients_unformat[i].channel_id, clients_unformat[i].success_text, clients_unformat[i].twit_call, clients_unformat[i].config));
+        clients.push(new Client(clients_unformat[i].name, clients_unformat[i].channel_id, clients_unformat[i].success_text, clients_unformat[i].twit_call, clients_unformat[i].config, clients_unformat[i].anonymous ? true : false));
     }
     client.login(token);
 });
@@ -58,12 +58,17 @@ client.on('message', msg => {
         download.image(options).then(({ filename, image }) => {
             clients[client_index].T.post('media/upload', { media: image }, function (error, media, response) {
                 if (error) console.log(error);
-                var status = {
-                    status: clients[client_index].success_text + msg.author.username + '! ' + clients[client_index].twit_call,
-                    media_ids: media.media_id_string // Pass the media id string
-                }
+
                 if (clients[client_index].anonymous) {
-                    status.status = clients[client_index].success_text;
+                    var status = {
+                        status: clients[client_index].success_text,
+                        media_ids: media.media_id_string // Pass the media id string
+                    }
+                } else {
+                    var status = {
+                        status: clients[client_index].success_text + msg.author.username + '! ' + clients[client_index].twit_call,
+                        media_ids: media.media_id_string // Pass the media id string
+                    }
                 }
 
                 clients[client_index].T.post('statuses/update', status, function (error, tweet, response) {
@@ -103,13 +108,14 @@ var j = schedule.scheduleJob('18 14 * * *', function () {
 });
 
 class Client {
-    constructor(name, channel_id, success_text, twit_call, config) {
+    constructor(name, channel_id, success_text, twit_call, config, anonymous) {
         this.name = name;
         this.token = token;
         this.channel_id = channel_id;
         this.success_text = success_text;
         this.twit_call = twit_call;
         this.config = config;
+        this.anonymous = anonymous;
         this.T = new Twitter(config);
     }
 }
