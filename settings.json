@@ -58,7 +58,7 @@
                 "access_token_secret": "0nQH9i6xhaErVXIWGaICdpVEV0Hty29Lh0bOm6mpbrZMx"
             }
         },
-{
+        {
             "name": "Bobbie",
             "channel_id": [
                 "636624126630690872"
@@ -71,32 +71,49 @@
                 "access_token_key": "1186637284621389824-g3Wg7qkHqZzehhClnrtRyfqN2DPduv",
                 "access_token_secret": "iriz4S9H2QEjlK8UwkbEOzi8fRWAR6OPNAa32jJFuMwwr"
             }
-},
-{
-	"name": "Osiris",
-	"channel_id": ["636351920402858004"],
-	"success_text": "Success by ",
-	"twit_call": "@OsirisNotify",
-	"config": {
-		"consumer_key": "WXWHuTa6jcW9wnKiz59ACvi2q",
-		"consumer_secret": "dPk85rQNivt5q6rQ8lpqSPKbmy69uUcMUtxPekuVKA8MohtIhN",
-		"access_token_key": "1187524652169646080-fE6nsyzoVsUHGHTZg7MwrH4FDVizob",
-		"access_token_secret": "uNtMT0oyAQTjApK1hdSNTkXc5CqWiZhdjY8nKBKj5U8fA"
-	}
-},
-{
-        "name": "SLExpress",
-        "channel_id": ["619153667655860245"],
-        "success_text": "Success by ",
-        "twit_call": "@SLexpress_",
-        "config": {
+        },
+        {
+            "name": "Osiris",
+            "channel_id": [
+                "636351920402858004"
+            ],
+            "success_text": "Success by ",
+            "twit_call": "@OsirisNotify",
+            "config": {
+                "consumer_key": "WXWHuTa6jcW9wnKiz59ACvi2q",
+                "consumer_secret": "dPk85rQNivt5q6rQ8lpqSPKbmy69uUcMUtxPekuVKA8MohtIhN",
+                "access_token_key": "1187524652169646080-fE6nsyzoVsUHGHTZg7MwrH4FDVizob",
+                "access_token_secret": "uNtMT0oyAQTjApK1hdSNTkXc5CqWiZhdjY8nKBKj5U8fA"
+            }
+        },
+        {
+            "name": "SLExpress",
+            "channel_id": [
+                "619153667655860245"
+            ],
+            "success_text": "Success by ",
+            "twit_call": "@SLexpress_",
+            "config": {
                 "consumer_key": "uoqXn7A4plRAIG4PdCA2sIUxF",
                 "consumer_secret": "jviC1yRO64KzFyXGbswos7D1aqRGHuUDoZ7MCXJBpeZKDNFNRX",
                 "access_token_key": "1178771481574154246-cblqV6NinLg5cZevffVZmBFM11eYwd",
                 "access_token_secret": "xtFb7b80zrFJZzsCQ1WigcPLiuhWFJHTRqPAzY2zKd1io"
+            }
+        },
+        {
+            "name": "HypeCook",
+            "channel_id": [
+                "561252041398288407"
+            ],
+            "success_text": "Success by ",
+            "twit_call": "@hype_cook",
+            "config": {
+                "consumer_key": "Q1fQpcbUSKtjwBpXp1II8DVBm",
+                "consumer_secret": "ZhNaGVbOORZ2qqJKxtfaC9PaBo1SuEiI96slhf67x9TUAKaBr0",
+                "access_token_key": "1115961757443473408-eYm7nSKAqKxVDok7KwdpEhaeLpN79A",
+                "access_token_secret": "twwxWua5ZNWycJaAm7qkATkNnKKDKLisHySTqaVR4Q69u"
+            }
         }
-}
-
     ],
     "token": "NjAwMzY3MzU2MjQ1NDQyNTYx.XSytzQ.VKIbWEi86bEERCB52CglMxP1QRs",
     "my_id": "244203795259719681",
