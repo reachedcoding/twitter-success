@@ -105,8 +105,8 @@
             "channel_id": [
                 "561252041398288407"
             ],
-            "success_text": "Success by ",
-            "twit_call": "@hype_cook",
+            "success_text": "Success by a @hype_cook chef",
+            "twit_call": "",
             "config": {
                 "consumer_key": "Q1fQpcbUSKtjwBpXp1II8DVBm",
                 "consumer_secret": "ZhNaGVbOORZ2qqJKxtfaC9PaBo1SuEiI96slhf67x9TUAKaBr0",
